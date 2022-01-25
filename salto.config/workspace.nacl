@@ -1,0 +1,5 @@
+workspace {
+  uid = "8635cac5-f695-420f-94b1-f9fff078e018"
+  name = "gwr-gdo-sfdc-dev-uat"
+  staleStateThresholdMinutes = undefined
+}
