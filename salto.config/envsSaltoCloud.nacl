@@ -1,4 +1,12 @@
 envs {
   envsCloud = [
+    {
+      uuid = "811f408f-d433-42ee-8e5b-fad9b962c933"
+      folderName = "gwr-gdo-sfdc-dev"
+    },
+    {
+      uuid = "01bd02ee-5a94-417b-8b35-4ae9fe64dec4"
+      folderName = "gwr-gdo-sfdc-uat"
+    },
   ]
 }
