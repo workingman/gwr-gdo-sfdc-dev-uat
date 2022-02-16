@@ -11,4 +11,6 @@ salesforce.AppointmentSchedulingPolicy default_appointment_scheduling_policy {
   shouldRespectVisitingHours = true
   shouldUsePrimaryMembers = true
   shouldUseSecondaryMembers = true
+  isSvcTerrOpHoursWithShiftsUsed = false
+  isSvcTerritoryMemberShiftUsed = false
 }

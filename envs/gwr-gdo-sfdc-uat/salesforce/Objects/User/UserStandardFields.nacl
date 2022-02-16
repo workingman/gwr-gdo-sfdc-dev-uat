@@ -2941,20 +2941,8 @@ type salesforce.User {
     updateable = true
     queryable = true
   }
-  salesforce.Checkbox UserPreferencesDisableFeedbackEmail {
-    apiName = "User.UserPreferencesDisableFeedbackEmail"
-    label = "DisableFeedbackEmail"
-    createable = true
-    updateable = true
-    queryable = true
-  }
-  salesforce.Checkbox UserPreferencesDisableWorkEmail {
-    apiName = "User.UserPreferencesDisableWorkEmail"
-    label = "DisableWorkEmail"
-    createable = true
-    updateable = true
-    queryable = true
-  }
+  
+  
   salesforce.Checkbox UserPreferencesHideS1BrowserUI {
     apiName = "User.UserPreferencesHideS1BrowserUI"
     label = "HideS1BrowserUI"

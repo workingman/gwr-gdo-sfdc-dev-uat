@@ -77,7 +77,7 @@ type salesforce.EntityMilestone {
   }
   salesforce.Lookup ParentEntityId {
     apiName = "EntityMilestone.ParentEntityId"
-    label = "Work Order ID"
+    label = " ID"
     _required = true
     referenceTo = [
       salesforce.WorkOrder,

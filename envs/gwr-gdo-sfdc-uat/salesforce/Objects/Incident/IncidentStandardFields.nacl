@@ -82,4 +82,32 @@ type salesforce.Incident {
     trackHistory = false
     _hidden_value = true
   }
+  salesforce.Lookup BusinessHoursId {
+    apiName = "Incident.BusinessHoursId"
+    trackHistory = false
+    _hidden_value = true
+  }
+  salesforce.Lookup EntitlementId {
+    apiName = "Incident.EntitlementId"
+    trackHistory = false
+    _hidden_value = true
+  }
+  string IsClosed {
+    _hidden_value = true
+  }
+  string IsStopped {
+    _hidden_value = true
+  }
+  string MilestoneStatus {
+    _hidden_value = true
+  }
+  string SlaExitDate {
+    _hidden_value = true
+  }
+  string SlaStartDate {
+    _hidden_value = true
+  }
+  string StopStartDate {
+    _hidden_value = true
+  }
 }

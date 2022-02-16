@@ -108,6 +108,15 @@ salesforce.Layout ServiceTerritory_Service_Territory_Layout@bss {
       ]
       relatedList = "ServiceTerritoryWorkType"
     },
+    {
+      fields = [
+        "Label",
+        "StartTime",
+        "EndTime",
+        "Status",
+      ]
+      relatedList = "ServiceTerritoryShifts"
+    },
   ]
   showEmailCheckbox = false
   showRunAssignmentRulesCheckbox = false

@@ -151,6 +151,15 @@ salesforce.Layout ServiceResource_Service_Resource_Layout@bss {
       ]
       relatedList = "RelatedProcessHistoryList"
     },
+    {
+      fields = [
+        "Label",
+        "StartTime",
+        "EndTime",
+        "Status",
+      ]
+      relatedList = "ServiceResourceShifts"
+    },
   ]
   showEmailCheckbox = false
   showRunAssignmentRulesCheckbox = false

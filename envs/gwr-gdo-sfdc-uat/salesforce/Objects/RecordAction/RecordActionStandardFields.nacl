@@ -126,6 +126,12 @@ type salesforce.RecordAction {
         isActive = true
       },
       {
+        fullName = "runtime_commerce_exc__Exchange_Flow"
+        default = false
+        label = "runtime_commerce_exc__Exchange_Flow"
+        isActive = true
+      },
+      {
         fullName = "runtime_commerce_oms__Cancel_Item"
         default = false
         label = "runtime_commerce_oms__Cancel_Item"
@@ -473,6 +479,12 @@ type salesforce.RecordAction {
         fullName = "runtime_commerce_adj__Discount_Item"
         default = false
         label = "runtime_commerce_adj__Discount_Item"
+        isActive = true
+      },
+      {
+        fullName = "runtime_commerce_exc__Exchange_Flow"
+        default = false
+        label = "runtime_commerce_exc__Exchange_Flow"
         isActive = true
       },
       {

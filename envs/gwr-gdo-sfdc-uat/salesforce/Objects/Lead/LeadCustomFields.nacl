@@ -89,7 +89,7 @@ type salesforce.Lead {
   salesforce.Number LeadScore__c {
     apiName = "Lead.LeadScore__c"
     label = "LeadScore"
-    defaultValueFormula = "0.2"
+    defaultValueFormula = "0.3"
     precision = 3
     scale = 2
     inlineHelpText = "between 0 and 1"

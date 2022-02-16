@@ -216,6 +216,12 @@ type salesforce.Macro {
         isActive = true
       },
       {
+        fullName = "ChangeRequestRelatedItem"
+        default = false
+        label = "Change Request Related Item"
+        isActive = true
+      },
+      {
         fullName = "CommSubscription"
         default = false
         label = "Communication Subscription"
@@ -339,6 +345,12 @@ type salesforce.Macro {
         fullName = "Incident"
         default = false
         label = "Incident"
+        isActive = true
+      },
+      {
+        fullName = "IncidentRelatedItem"
+        default = false
+        label = "Incident Related Item"
         isActive = true
       },
       {
@@ -468,9 +480,9 @@ type salesforce.Macro {
         isActive = true
       },
       {
-        fullName = "ProblemIncident"
+        fullName = "ProblemRelatedItem"
         default = false
-        label = "Problem-Incident Relationship"
+        label = "Problem Related Item"
         isActive = true
       },
       {
@@ -507,6 +519,12 @@ type salesforce.Macro {
         fullName = "RefundLinePayment"
         default = false
         label = "Refund Line Payment"
+        isActive = true
+      },
+      {
+        fullName = "ProblemIncident"
+        default = false
+        label = "Related Problem and Incident"
         isActive = true
       },
       {
@@ -570,6 +588,12 @@ type salesforce.Macro {
         isActive = true
       },
       {
+        fullName = "Shift"
+        default = false
+        label = "Shift"
+        isActive = true
+      },
+      {
         fullName = "Task"
         default = false
         label = "Task"
@@ -597,6 +621,36 @@ type salesforce.Macro {
         fullName = "WorkOrderLineItem"
         default = false
         label = "Work Order Line Item"
+        isActive = true
+      },
+      {
+        fullName = "WorkPlan"
+        default = false
+        label = "Work Plan"
+        isActive = true
+      },
+      {
+        fullName = "WorkPlanTemplate"
+        default = false
+        label = "Work Plan Template"
+        isActive = true
+      },
+      {
+        fullName = "WorkPlanTemplateEntry"
+        default = false
+        label = "Work Plan Template Entry"
+        isActive = true
+      },
+      {
+        fullName = "WorkStep"
+        default = false
+        label = "Work Step"
+        isActive = true
+      },
+      {
+        fullName = "WorkStepTemplate"
+        default = false
+        label = "Work Step Template"
         isActive = true
       },
       {

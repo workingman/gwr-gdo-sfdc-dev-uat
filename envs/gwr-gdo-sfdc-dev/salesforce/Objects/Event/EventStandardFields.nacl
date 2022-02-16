@@ -40,6 +40,7 @@ type salesforce.Event {
       salesforce.LegalEntity,
       "ListEmail",
       salesforce.Location,
+      salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.PartyConsent,
@@ -51,9 +52,15 @@ type salesforce.Event {
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
+      salesforce.Shift,
       salesforce.Solution,
       salesforce.WorkOrder,
       salesforce.WorkOrderLineItem,
+      salesforce.WorkPlan,
+      salesforce.WorkPlanTemplate,
+      salesforce.WorkPlanTemplateEntry,
+      salesforce.WorkStep,
+      salesforce.WorkStepTemplate,
     ]
     createable = true
     updateable = true

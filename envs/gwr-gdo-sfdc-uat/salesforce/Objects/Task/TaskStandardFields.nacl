@@ -40,6 +40,7 @@ type salesforce.Task {
       salesforce.LegalEntity,
       "ListEmail",
       salesforce.Location,
+      salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.PartyConsent,
@@ -51,9 +52,15 @@ type salesforce.Task {
       salesforce.ServiceAppointment,
       salesforce.ServiceContract,
       salesforce.ServiceResource,
+      salesforce.Shift,
       salesforce.Solution,
       salesforce.WorkOrder,
       salesforce.WorkOrderLineItem,
+      salesforce.WorkPlan,
+      salesforce.WorkPlanTemplate,
+      salesforce.WorkPlanTemplateEntry,
+      salesforce.WorkStep,
+      salesforce.WorkStepTemplate,
     ]
     createable = true
     updateable = true
@@ -1197,7 +1204,7 @@ type salesforce.Task {
   }
   salesforce.DateTime CompletedDateTime {
     apiName = "Task.CompletedDateTime"
-    label = "Completed Date"
+    label = "Completed Date/Time"
     createable = false
     updateable = false
     queryable = true

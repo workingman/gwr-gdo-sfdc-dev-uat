@@ -148,7 +148,7 @@ type salesforce.ResourceAbsence {
   salesforce.Address Address {
     apiName = "ResourceAbsence.Address"
     label = "Address"
-    _required = true
+    
     createable = false
     updateable = false
     queryable = true

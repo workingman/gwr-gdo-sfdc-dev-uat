@@ -264,4 +264,36 @@ type salesforce.CreditMemo {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Unknown AppType {
+    apiName = "CreditMemo.AppType"
+    trackHistory = false
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown CreationMode {
+    apiName = "CreditMemo.CreationMode"
+    trackHistory = false
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown ExternalReference {
+    apiName = "CreditMemo.ExternalReference"
+    trackHistory = false
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown ExternalReferenceDataSource {
+    apiName = "CreditMemo.ExternalReferenceDataSource"
+    trackHistory = false
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
 }

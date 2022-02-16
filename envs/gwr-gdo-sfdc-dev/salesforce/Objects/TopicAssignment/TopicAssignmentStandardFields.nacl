@@ -45,10 +45,16 @@ type salesforce.TopicAssignment {
       salesforce.ServiceResourceSkill,
       salesforce.ServiceTerritory,
       salesforce.ServiceTerritoryMember,
+      salesforce.Shift,
       salesforce.Solution,
       salesforce.Task,
       salesforce.WorkOrder,
       salesforce.WorkOrderLineItem,
+      salesforce.WorkPlan,
+      salesforce.WorkPlanTemplate,
+      salesforce.WorkPlanTemplateEntry,
+      salesforce.WorkStep,
+      salesforce.WorkStepTemplate,
     ]
     createable = true
     updateable = false

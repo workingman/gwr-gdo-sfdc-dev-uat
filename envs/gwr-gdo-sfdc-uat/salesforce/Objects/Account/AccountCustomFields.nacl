@@ -171,7 +171,7 @@ type salesforce.Account {
   salesforce.Checkbox aaNewCheckbox__c {
     apiName = "Account.aaNewCheckbox__c"
     label = "aaNewCheckbox"
-    defaultValue = false
+    defaultValue = true
     createable = true
     updateable = true
     queryable = true

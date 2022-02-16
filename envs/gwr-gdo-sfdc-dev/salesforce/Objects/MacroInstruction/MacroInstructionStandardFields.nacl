@@ -268,6 +268,90 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Field.ChangeRequest.Category"
+        default = false
+        label = "Category"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.ChangeType"
+        default = false
+        label = "Type of Change"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Description"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Description.begin"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Description.cursor"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Description.end"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Impact"
+        default = false
+        label = "Impact"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.OwnerId"
+        default = false
+        label = "Change Request Owner"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Priority"
+        default = false
+        label = "Priority"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.RiskLevel"
+        default = false
+        label = "Risk Level"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Status"
+        default = false
+        label = "Status"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Subject"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Subject.begin"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.ChangeRequest.Subject.end"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
         fullName = "Field.CollaborationGroup.CanHaveGuests"
         default = false
         label = "Allow customers"
@@ -487,6 +571,96 @@ type salesforce.MacroInstruction {
         fullName = "Field.Event.WhoId"
         default = false
         label = "Name"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Description"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Description.begin"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Description.cursor"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Description.end"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.EndDateTime"
+        default = false
+        label = "End Date Time"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Impact"
+        default = false
+        label = "Impact"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.IsMajorIncident"
+        default = false
+        label = "Major Incident"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.OwnerId"
+        default = false
+        label = "Incident Owner"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Priority"
+        default = false
+        label = "Priority"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.StartDateTime"
+        default = false
+        label = "Start Date Time"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Status"
+        default = false
+        label = "Status"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Subject"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Subject.begin"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Subject.end"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Incident.Urgency"
+        default = false
+        label = "Urgency"
         isActive = true
       },
       {
@@ -838,6 +1012,96 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Field.Problem.Category"
+        default = false
+        label = "Category"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Description"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Description.begin"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Description.cursor"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Description.end"
+        default = false
+        label = "Description"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Impact"
+        default = false
+        label = "Impact"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.OwnerId"
+        default = false
+        label = "Problem Owner"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Priority"
+        default = false
+        label = "Priority"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.ResolutionDateTime"
+        default = false
+        label = "Resolution Date"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.ResolvedById"
+        default = false
+        label = "Resolved By"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Status"
+        default = false
+        label = "Status"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Subject"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Subject.begin"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Subject.end"
+        default = false
+        label = "Subject"
+        isActive = true
+      },
+      {
+        fullName = "Field.Problem.Urgency"
+        default = false
+        label = "Urgency"
+        isActive = true
+      },
+      {
         fullName = "Field.Task.ActivityDate"
         default = false
         label = "Due Date"
@@ -928,6 +1192,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "QuickAction.ChangeRequest._LightningUpdateChangeRequest"
+        default = false
+        label = "Update Change Request Action"
+        isActive = true
+      },
+      {
         fullName = "QuickAction.CollaborationGroup.NewGroupMember"
         default = false
         label = "Add Member Action"
@@ -949,6 +1219,12 @@ type salesforce.MacroInstruction {
         fullName = "QuickAction.FeedItem.NewTaskFromFeedItem"
         default = false
         label = "Create New Task Action"
+        isActive = true
+      },
+      {
+        fullName = "QuickAction.Incident._LightningUpdateIncident"
+        default = false
+        label = "Update Incident Action"
         isActive = true
       },
       {
@@ -1027,6 +1303,12 @@ type salesforce.MacroInstruction {
         fullName = "QuickAction.Opportunity.runtime_appointmentbooking__Flow"
         default = false
         label = "Schedule Appointment Action"
+        isActive = true
+      },
+      {
+        fullName = "QuickAction.Problem._LightningUpdateProblem"
+        default = false
+        label = "Update Problem Action"
         isActive = true
       },
       {
@@ -1186,6 +1468,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.ChangeRequestRelatedItem"
+        default = false
+        label = "Active Change Request Related Item Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.CollaborationGroup"
         default = false
         label = "Active Group Tab"
@@ -1318,6 +1606,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.IncidentRelatedItem"
+        default = false
+        label = "Active Incident Related Item Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.Individual"
         default = false
         label = "Active Individual Tab"
@@ -1440,7 +1734,13 @@ type salesforce.MacroInstruction {
       {
         fullName = "Tab.ProblemIncident"
         default = false
-        label = "Active Problem-Incident Relationship Tab"
+        label = "Active Related Problem and Incident Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.ProblemRelatedItem"
+        default = false
+        label = "Active Problem Related Item Tab"
         isActive = true
       },
       {
@@ -1522,6 +1822,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.Shift"
+        default = false
+        label = "Active Shift Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.Task"
         default = false
         label = "Active Task Tab"
@@ -1549,6 +1855,36 @@ type salesforce.MacroInstruction {
         fullName = "Tab.WorkOrderLineItem"
         default = false
         label = "Active Work Order Line Item Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.WorkPlan"
+        default = false
+        label = "Active Work Plan Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.WorkPlanTemplate"
+        default = false
+        label = "Active Work Plan Template Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.WorkPlanTemplateEntry"
+        default = false
+        label = "Active Work Plan Template Entry Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.WorkStep"
+        default = false
+        label = "Active Work Step Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.WorkStepTemplate"
+        default = false
+        label = "Active Work Step Template Tab"
         isActive = true
       },
       {

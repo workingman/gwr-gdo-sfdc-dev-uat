@@ -159,6 +159,12 @@ type salesforce.MessagingSession {
         label = "Error"
         isActive = true
       },
+      {
+        fullName = "Paused"
+        default = false
+        label = "Paused"
+        isActive = true
+      },
     ]
     restricted = true
     createable = true

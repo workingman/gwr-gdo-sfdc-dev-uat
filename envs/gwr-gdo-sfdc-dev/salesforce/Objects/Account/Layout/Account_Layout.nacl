@@ -44,18 +44,6 @@ salesforce.Layout Account_Account_Layout@bs {
               behavior = "Edit"
               field = salesforce.Account.field.AnnualRevenue
             },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaNewField1__c
-            },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaAnotherNewField__c
-            },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaNewCheckbox__c
-            },
           ]
         },
         {

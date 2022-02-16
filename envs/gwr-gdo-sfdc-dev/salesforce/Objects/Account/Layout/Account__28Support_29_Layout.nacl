@@ -44,18 +44,6 @@ salesforce.Layout Account_Account__28Support_29_Layout@bspps {
               behavior = "Edit"
               field = salesforce.Account.field.Website
             },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaNewField1__c
-            },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaAnotherNewField__c
-            },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.aaNewCheckbox__c
-            },
           ]
         },
         {
