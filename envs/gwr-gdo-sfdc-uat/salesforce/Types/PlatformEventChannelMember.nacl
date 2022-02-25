@@ -26,6 +26,7 @@ type salesforce.PlatformEventChannelMember {
         "CommerceChangeEvents",
         "CommerceSearchIncrementalIndex",
         "ConsentCDCChannel",
+        "ConsentCDCStandardChannel",
         "ConversationIntelligenceVirtualChannel",
         "CreChangeEvents",
         "EinsteinDiscoveryWBChannel",

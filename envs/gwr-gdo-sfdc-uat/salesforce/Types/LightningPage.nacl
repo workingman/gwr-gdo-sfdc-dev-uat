@@ -241,6 +241,8 @@ type salesforce.LightningPage {
     _restriction = {
       enforce_value = false
       values = [
+        "Slack:message",
+        "Slack:modal",
         "clients:defaultMailAppTemplate",
         "contentpage:defaultEmailContentPageTemplate",
         "contentpage:defaultEmailTemplatePageTemplate",
@@ -255,9 +257,6 @@ type salesforce.LightningPage {
         "flexipage:appHomeTemplateTwoColumnsStacked",
         "flexipage:defaultAppHomeTemplate",
         "flexipage:defaultObjectHomeTemplate",
-        "flexipage:defaultSlackAppHomeTemplate",
-        "flexipage:defaultSlackMessageTemplate",
-        "flexipage:defaultSlackModalTemplate",
         "flexipage:objectHomeTemplateThreeColumns",
         "flexipage:objectHomeTemplateTwoColumns",
         "flexipage:objectHomeTemplateTwoColumnsStacked",
@@ -357,6 +356,7 @@ type salesforce.LightningPage {
         "SlackAppHome",
         "SlackMessage",
         "SlackModal",
+        "SlackNotification",
         "UtilityBar",
       ]
     }

@@ -47,9 +47,9 @@ type salesforce.Account {
         label = "Platinum"
       },
       {
-        fullName = "Bronze"
+        fullName = "Copper"
         default = false
-        label = "Bronze"
+        label = "Copper"
       },
     ]
     restricted = false
@@ -144,38 +144,7 @@ type salesforce.Account {
     externalId = false
     trackFeedHistory = false
   }
-  salesforce.Text aaAnotherNewField__c {
-    apiName = "Account.aaAnotherNewField__c"
-    label = "aaAnotherNewField"
-    createable = true
-    updateable = true
-    unique = false
-    caseSensitive = false
-    length = 100
-    queryable = true
-    externalId = false
-    trackFeedHistory = false
-  }
-  salesforce.Text aaNewField1__c {
-    apiName = "Account.aaNewField1__c"
-    label = "aaNewField1"
-    createable = true
-    updateable = true
-    unique = false
-    caseSensitive = false
-    length = 100
-    queryable = true
-    externalId = false
-    trackFeedHistory = false
-  }
-  salesforce.Checkbox aaNewCheckbox__c {
-    apiName = "Account.aaNewCheckbox__c"
-    label = "aaNewCheckbox"
-    defaultValue = true
-    createable = true
-    updateable = true
-    queryable = true
-    externalId = false
-    trackFeedHistory = false
-  }
+  
+  
+  
 }
