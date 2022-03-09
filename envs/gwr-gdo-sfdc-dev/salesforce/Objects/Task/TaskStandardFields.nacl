@@ -29,11 +29,14 @@ type salesforce.Task {
       salesforce.AssignedResource,
       salesforce.Campaign,
       salesforce.Case,
+      salesforce.ChannelProgram,
+      salesforce.ChannelProgramLevel,
       salesforce.CommSubscriptionConsent,
       salesforce.ContactRequest,
       salesforce.Contract,
       salesforce.ContractLineItem,
       salesforce.CreditMemo,
+      salesforce.DelegatedAccount,
       salesforce.Entitlement,
       salesforce.Image,
       salesforce.Invoice,
@@ -43,6 +46,10 @@ type salesforce.Task {
       salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
       salesforce.Order,
+      salesforce.PartnerFundAllocation,
+      salesforce.PartnerFundClaim,
+      salesforce.PartnerFundRequest,
+      salesforce.PartnerMarketingBudget,
       salesforce.PartyConsent,
       salesforce.ProcessException,
       salesforce.Product2,
@@ -1226,6 +1233,13 @@ type salesforce.Task {
   }
   salesforce.Picklist Type {
     apiName = "Task.Type"
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown IsVisibleInSelfService {
+    apiName = "Task.IsVisibleInSelfService"
     queryable = false
     updateable = false
     createable = false

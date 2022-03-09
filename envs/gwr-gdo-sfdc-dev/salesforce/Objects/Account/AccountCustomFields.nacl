@@ -51,6 +51,16 @@ type salesforce.Account {
         default = false
         label = "Bronze"
       },
+      {
+        fullName = "Titanium"
+        default = false
+        label = "Titanium"
+      },
+      {
+        fullName = "Aluminum"
+        default = false
+        label = "Cesium2"
+      },
     ]
     restricted = false
     createable = true

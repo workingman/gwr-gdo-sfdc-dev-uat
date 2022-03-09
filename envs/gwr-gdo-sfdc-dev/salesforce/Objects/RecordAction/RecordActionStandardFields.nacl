@@ -392,6 +392,12 @@ type salesforce.RecordAction {
         isActive = true
       },
       {
+        fullName = "QuickActionDefinition.GuestCommunityCase"
+        default = false
+        label = "QuickActionDefinition.GuestCommunityCase"
+        isActive = true
+      },
+      {
         fullName = "QuickActionDefinition.Lead.runtime_appointmentbooking__Flow"
         default = false
         label = "QuickActionDefinition.Lead.runtime_appointmentbooking__Flow"
@@ -413,6 +419,12 @@ type salesforce.RecordAction {
         fullName = "QuickActionDefinition.NewCase"
         default = false
         label = "QuickActionDefinition.NewCase"
+        isActive = true
+      },
+      {
+        fullName = "QuickActionDefinition.NewCommunityCase"
+        default = false
+        label = "QuickActionDefinition.NewCommunityCase"
         isActive = true
       },
       {

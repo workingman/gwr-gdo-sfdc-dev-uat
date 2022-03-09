@@ -1,0 +1,3 @@
+salesforce.ManagedTopics community1 {
+  fullName = "community1"
+}

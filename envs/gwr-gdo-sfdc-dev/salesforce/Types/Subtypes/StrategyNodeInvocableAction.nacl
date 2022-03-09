@@ -229,6 +229,7 @@ type salesforce.StrategyNodeInvocableAction {
         "slackArchiveChannel",
         "slackCreateChannel",
         "slackGetConversationInfo",
+        "slackGetDetailsForSalesChannel",
         "slackInviteUserToWorkspace",
         "slackInviteUsersToChannel",
         "slackPinMessage",

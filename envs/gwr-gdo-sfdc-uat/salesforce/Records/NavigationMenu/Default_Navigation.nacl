@@ -1,0 +1,13 @@
+salesforce.NavigationMenu Default_Navigation {
+  fullName = "Default_Navigation"
+  container = "GWR UAT Experience"
+  containerType = "Network"
+  label = "Default Navigation"
+  navigationMenuItem = {
+    label = "Topics"
+    position = 1
+    publiclyAvailable = true
+    target = "ShowMoreTopics"
+    type = "NavigationalTopic"
+  }
+}

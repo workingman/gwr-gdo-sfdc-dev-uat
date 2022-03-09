@@ -223,6 +223,7 @@ type salesforce.StrategyAction {
         "slackArchiveChannel",
         "slackCreateChannel",
         "slackGetConversationInfo",
+        "slackGetDetailsForSalesChannel",
         "slackInviteUserToWorkspace",
         "slackInviteUsersToChannel",
         "slackPinMessage",

@@ -255,9 +255,6 @@ type salesforce.LightningPage {
         "flexipage:appHomeTemplateTwoColumnsStacked",
         "flexipage:defaultAppHomeTemplate",
         "flexipage:defaultObjectHomeTemplate",
-        "flexipage:defaultSlackAppHomeTemplate",
-        "flexipage:defaultSlackMessageTemplate",
-        "flexipage:defaultSlackModalTemplate",
         "flexipage:objectHomeTemplateThreeColumns",
         "flexipage:objectHomeTemplateTwoColumns",
         "flexipage:objectHomeTemplateTwoColumnsStacked",
@@ -288,6 +285,8 @@ type salesforce.LightningPage {
         "runtime_cdp:cdpRecordHomeTemplateDesktop",
         "runtime_commerce_oci:homeTemplateOneRegion",
         "runtime_service_fieldservice:headerBodyFooterDocumentTemplate",
+        "runtime_slack_block:message",
+        "runtime_slack_block:modal",
         "salesforceIdentity:loginBody",
         "salesforceIdentity:loginBody2",
         "siteforce:b2bBody",
@@ -357,6 +356,7 @@ type salesforce.LightningPage {
         "SlackAppHome",
         "SlackMessage",
         "SlackModal",
+        "SlackNotification",
         "UtilityBar",
       ]
     }

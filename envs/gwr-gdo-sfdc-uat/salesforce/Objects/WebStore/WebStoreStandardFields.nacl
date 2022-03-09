@@ -117,12 +117,124 @@ type salesforce.WebStore {
     updateable = false
     queryable = true
   }
-  salesforce.Unknown DefaultLanguage {
+  salesforce.Picklist DefaultLanguage {
     apiName = "WebStore.DefaultLanguage"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    label = "Default Language"
+    valueSet = [
+      {
+        fullName = "en_US"
+        default = false
+        label = "English"
+        isActive = true
+      },
+      {
+        fullName = "de"
+        default = false
+        label = "German"
+        isActive = true
+      },
+      {
+        fullName = "es"
+        default = false
+        label = "Spanish"
+        isActive = true
+      },
+      {
+        fullName = "fr"
+        default = false
+        label = "French"
+        isActive = true
+      },
+      {
+        fullName = "it"
+        default = false
+        label = "Italian"
+        isActive = true
+      },
+      {
+        fullName = "ja"
+        default = false
+        label = "Japanese"
+        isActive = true
+      },
+      {
+        fullName = "sv"
+        default = false
+        label = "Swedish"
+        isActive = true
+      },
+      {
+        fullName = "ko"
+        default = false
+        label = "Korean"
+        isActive = true
+      },
+      {
+        fullName = "zh_TW"
+        default = false
+        label = "Chinese (Traditional)"
+        isActive = true
+      },
+      {
+        fullName = "zh_CN"
+        default = false
+        label = "Chinese (Simplified)"
+        isActive = true
+      },
+      {
+        fullName = "pt_BR"
+        default = false
+        label = "Portuguese (Brazil)"
+        isActive = true
+      },
+      {
+        fullName = "nl_NL"
+        default = false
+        label = "Dutch"
+        isActive = true
+      },
+      {
+        fullName = "da"
+        default = false
+        label = "Danish"
+        isActive = true
+      },
+      {
+        fullName = "th"
+        default = false
+        label = "Thai"
+        isActive = true
+      },
+      {
+        fullName = "fi"
+        default = false
+        label = "Finnish"
+        isActive = true
+      },
+      {
+        fullName = "ru"
+        default = false
+        label = "Russian"
+        isActive = true
+      },
+      {
+        fullName = "es_MX"
+        default = false
+        label = "Spanish (Mexico)"
+        isActive = true
+      },
+      {
+        fullName = "no"
+        default = false
+        label = "Norwegian"
+        isActive = true
+      },
+    ]
+    restricted = true
+    inlineHelpText = "The language to use when translated content isn't available. This value comes from the first supported language for your org in Translation Workbench."
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Unknown DefaultTaxLocaleType {
     apiName = "WebStore.DefaultTaxLocaleType"
@@ -131,12 +243,13 @@ type salesforce.WebStore {
     createable = false
     _hidden_value = true
   }
-  salesforce.Unknown Description {
+  salesforce.LongTextArea Description {
     apiName = "WebStore.Description"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    label = "Description"
+    createable = true
+    updateable = true
+    length = 1000
+    queryable = true
   }
   salesforce.Unknown ExternalReference {
     apiName = "WebStore.ExternalReference"
@@ -145,26 +258,50 @@ type salesforce.WebStore {
     createable = false
     _hidden_value = true
   }
-  salesforce.Unknown MaxValuesPerFacet {
+  salesforce.Number MaxValuesPerFacet {
     apiName = "WebStore.MaxValuesPerFacet"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    label = "Maximum Values per Filter"
+    precision = 9
+    inlineHelpText = "Set the maximum number of values to show per filter. Enter a value from 1 to 100."
+    createable = true
+    updateable = true
+    scale = 0
+    unique = false
+    queryable = true
   }
-  salesforce.Unknown PaginationSize {
+  salesforce.Number PaginationSize {
     apiName = "WebStore.PaginationSize"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    label = "Results per Page"
+    precision = 9
+    inlineHelpText = "Set the maximum number of results to show per page. Enter a value from 1 to 100."
+    createable = true
+    updateable = true
+    scale = 0
+    unique = false
+    queryable = true
   }
-  salesforce.Unknown PricingStrategy {
+  salesforce.Picklist PricingStrategy {
     apiName = "WebStore.PricingStrategy"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    label = "Pricing Strategy"
+    valueSet = [
+      {
+        fullName = "LowestPrice"
+        default = true
+        label = "Best Price"
+        isActive = true
+      },
+      {
+        fullName = "Priority"
+        default = false
+        label = "Priority Price"
+        isActive = true
+      },
+    ]
+    restricted = true
+    inlineHelpText = "Select the price to show to buyers: either the best price or the prices from the highest priority price book."
+    createable = true
+    updateable = true
+    queryable = true
   }
   salesforce.Unknown ProductGrouping {
     apiName = "WebStore.ProductGrouping"
@@ -175,16 +312,54 @@ type salesforce.WebStore {
   }
   salesforce.Lookup StrikethroughPricebookId {
     apiName = "WebStore.StrikethroughPricebookId"
-    queryable = false
-    updateable = false
-    createable = false
-    _hidden_value = true
+    queryable = true
+    updateable = true
+    createable = true
+    
+    label = "Price Book ID"
+    referenceTo = [
+      salesforce.Pricebook2,
+    ]
+    inlineHelpText = "Displays a price book with a product’s original list price and the buyer’s discounted price."
+    relationshipName = "StrikethroughPricebook"
   }
-  salesforce.Unknown SupportedLanguages {
+  salesforce.LongTextArea SupportedLanguages {
     apiName = "WebStore.SupportedLanguages"
-    queryable = false
-    updateable = false
+    label = "Supported Languages"
+    inlineHelpText = "The languages to make available to buyers. Language options come from Translation Workbench."
+    createable = true
+    updateable = true
+    length = 2000
+    queryable = true
+  }
+  salesforce.Number CheckoutTimeToLive {
+    apiName = "WebStore.CheckoutTimeToLive"
+    label = "Checkout Time To Live"
+    precision = 9
+    createable = true
+    updateable = true
+    scale = 0
+    unique = false
+    queryable = true
+  }
+  salesforce.DateTime CheckoutValidAfterDate {
+    apiName = "WebStore.CheckoutValidAfterDate"
+    label = "Checkout Valid After Date"
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Lookup LocationId {
+    apiName = "WebStore.LocationId"
+    label = "Location ID"
+    _required = true
+    referenceTo = [
+      salesforce.Location,
+    ]
     createable = false
+    updateable = false
+    relationshipName = "Location"
+    queryable = true
     _hidden_value = true
   }
 }

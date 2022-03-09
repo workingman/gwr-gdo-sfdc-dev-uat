@@ -39,7 +39,7 @@ salesforce.SecuritySettings {
     enableXssProtection = true
     enforceIpRangesEveryRequest = false
     enforceUserDeviceRevoked = false
-    forceLogoutOnSessionTimeout = true
+    forceLogoutOnSessionTimeout = false
     forceRelogin = true
     hasRetainedLoginHints = false
     hasUserSwitching = true
@@ -51,7 +51,7 @@ salesforce.SecuritySettings {
     redirectionWarning = true
     referrerPolicy = true
     requireHttpOnly = false
-    sessionTimeout = "TwoHours"
+    sessionTimeout = "TwelveHours"
   }
   singleSignOnSettings = {
     enableCaseInsensitiveFederationID = false

@@ -1,0 +1,14 @@
+salesforce.NetworkBranding cbGWR_UAT_Experience {
+  network = "GWR UAT Experience"
+  primaryColor = "#1797C0"
+  primaryComplementColor = "#FFFFFF"
+  quaternaryColor = "#B1BAC1"
+  quaternaryComplementColor = "#222222"
+  secondaryColor = "#51606E"
+  tertiaryColor = "#DDE4E9"
+  tertiaryComplementColor = "#222222"
+  zeronaryColor = "#51606E"
+  zeronaryComplementColor = "#FFFFFF"
+  fullName = "cbGWR_UAT_Experience"
+  content = file("salesforce/Records/NetworkBranding/cbGWR_UAT_Experience.networkBranding")
+}

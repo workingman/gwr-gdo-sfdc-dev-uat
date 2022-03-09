@@ -86,4 +86,15 @@ type salesforce.ChatterActivity {
     queryable = true
     _hidden_value = true
   }
+  salesforce.Lookup NetworkId {
+    apiName = "ChatterActivity.NetworkId"
+    label = "Network ID"
+    referenceTo = [
+      salesforce.Network,
+    ]
+    createable = false
+    updateable = false
+    queryable = true
+    _hidden_value = true
+  }
 }

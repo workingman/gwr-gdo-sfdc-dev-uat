@@ -269,10 +269,10 @@ type salesforce.EmailMessage {
     apiName = "EmailMessage.IsExternallyVisible"
     label = "Is Externally Visible"
     defaultValue = false
-    createable = false
-    updateable = false
+    createable = true
+    updateable = true
     queryable = true
-    _hidden_value = true
+    
   }
   salesforce.Text MessageIdentifier {
     apiName = "EmailMessage.MessageIdentifier"
@@ -312,11 +312,14 @@ type salesforce.EmailMessage {
       salesforce.AssignedResource,
       salesforce.Campaign,
       salesforce.Case,
+      salesforce.ChannelProgram,
+      salesforce.ChannelProgramLevel,
       salesforce.CommSubscriptionConsent,
       salesforce.ContactRequest,
       salesforce.Contract,
       salesforce.ContractLineItem,
       salesforce.CreditMemo,
+      salesforce.DelegatedAccount,
       salesforce.Entitlement,
       salesforce.Image,
       salesforce.Invoice,
@@ -326,6 +329,10 @@ type salesforce.EmailMessage {
       salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
       salesforce.Order,
+      salesforce.PartnerFundAllocation,
+      salesforce.PartnerFundClaim,
+      salesforce.PartnerFundRequest,
+      salesforce.PartnerMarketingBudget,
       salesforce.PartyConsent,
       salesforce.ProcessException,
       salesforce.Product2,

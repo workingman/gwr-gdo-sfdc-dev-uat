@@ -448,4 +448,42 @@ type salesforce.Account {
     createable = false
     _hidden_value = true
   }
+  salesforce.Checkbox IsPartner {
+    apiName = "Account.IsPartner"
+    label = "Partner Account"
+    defaultValue = false
+    createable = false
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsCustomerPortal {
+    apiName = "Account.IsCustomerPortal"
+    label = "Customer Portal Account"
+    defaultValue = false
+    createable = false
+    updateable = true
+    queryable = true
+  }
+  salesforce.Text ChannelProgramName {
+    apiName = "Account.ChannelProgramName"
+    label = "Channel Program Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 255
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text ChannelProgramLevelName {
+    apiName = "Account.ChannelProgramLevelName"
+    label = "Channel Program Level Name"
+    createable = false
+    updateable = false
+    unique = false
+    caseSensitive = false
+    length = 255
+    queryable = true
+    _hidden_value = true
+  }
 }

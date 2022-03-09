@@ -8,8 +8,16 @@ salesforce.CommunitiesSettings {
   enableGuestRecordReassignOrgPref = true
   enableGuestSecurityOptOutCruc = "false"
   enableInviteChatterGuestEnabled = true
-  enableNetworksEnabled = false
+  enableNetworksEnabled = true
   enableOotbProfExtUserOpsEnable = false
   enablePRMAccRelPref = false
   enableRelaxPartnerAccountFieldPref = false
+  canModerateAllFeedPosts = false
+  embeddedVisualforcePages = false
+  enableCommunityWorkspaces = true
+  enableCspNotesOnAccConPref = false
+  enableGuvSecurityOptOutPref = "false"
+  enableNetPortalUserReportOpts = false
+  enablePowerCustomerCaseStatus = false
+  enableUnsupportedBrowserModalPref = true
 }

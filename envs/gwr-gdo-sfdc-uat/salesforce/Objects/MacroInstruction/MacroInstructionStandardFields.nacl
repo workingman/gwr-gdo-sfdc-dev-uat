@@ -268,6 +268,36 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Field.Case.SuppliedEmail"
+        default = false
+        label = "Web Email"
+        isActive = true
+      },
+      {
+        fullName = "Field.CaseComment.CommentBody"
+        default = false
+        label = "Body"
+        isActive = true
+      },
+      {
+        fullName = "Field.CaseComment.CommentBody.begin"
+        default = false
+        label = "Body"
+        isActive = true
+      },
+      {
+        fullName = "Field.CaseComment.CommentBody.cursor"
+        default = false
+        label = "Body"
+        isActive = true
+      },
+      {
+        fullName = "Field.CaseComment.CommentBody.end"
+        default = false
+        label = "Body"
+        isActive = true
+      },
+      {
         fullName = "Field.ChangeRequest.Category"
         default = false
         label = "Category"
@@ -1174,6 +1204,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "QuickAction.Case.CaseComment"
+        default = false
+        label = "Community Action"
+        isActive = true
+      },
+      {
         fullName = "QuickAction.Case.LogACall"
         default = false
         label = "Log a Call Action"
@@ -1222,6 +1258,12 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "QuickAction.GuestCommunityCase"
+        default = false
+        label = "Guest Community Case Action"
+        isActive = true
+      },
+      {
         fullName = "QuickAction.Incident._LightningUpdateIncident"
         default = false
         label = "Update Incident Action"
@@ -1255,6 +1297,12 @@ type salesforce.MacroInstruction {
         fullName = "QuickAction.NewCase"
         default = false
         label = "New Case Action"
+        isActive = true
+      },
+      {
+        fullName = "QuickAction.NewCommunityCase"
+        default = false
+        label = "New Community Case Action"
         isActive = true
       },
       {
@@ -1474,6 +1522,24 @@ type salesforce.MacroInstruction {
         isActive = true
       },
       {
+        fullName = "Tab.ChannelProgram"
+        default = false
+        label = "Active Channel Program Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.ChannelProgramLevel"
+        default = false
+        label = "Active Channel Program Level Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.ChannelProgramMember"
+        default = false
+        label = "Active Channel Program Member Tab"
+        isActive = true
+      },
+      {
         fullName = "Tab.CollaborationGroup"
         default = false
         label = "Active Group Tab"
@@ -1561,6 +1627,12 @@ type salesforce.MacroInstruction {
         fullName = "Tab.DataUsePurpose"
         default = false
         label = "Active Data Use Purpose Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.DelegatedAccount"
+        default = false
+        label = "Active External Managed Account Tab"
         isActive = true
       },
       {
@@ -1681,6 +1753,30 @@ type salesforce.MacroInstruction {
         fullName = "Tab.Order"
         default = false
         label = "Active Order Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.PartnerFundAllocation"
+        default = false
+        label = "Active Partner Fund Allocation Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.PartnerFundClaim"
+        default = false
+        label = "Active Partner Fund Claim Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.PartnerFundRequest"
+        default = false
+        label = "Active Partner Fund Request Tab"
+        isActive = true
+      },
+      {
+        fullName = "Tab.PartnerMarketingBudget"
+        default = false
+        label = "Active Partner Marketing Budget Tab"
         isActive = true
       },
       {

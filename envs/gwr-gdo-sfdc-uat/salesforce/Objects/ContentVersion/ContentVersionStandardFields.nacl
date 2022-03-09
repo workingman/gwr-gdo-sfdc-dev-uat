@@ -369,6 +369,7 @@ type salesforce.ContentVersion {
     label = "First Publish Location ID"
     referenceTo = [
       salesforce.Account,
+      salesforce.AccountBrand,
       salesforce.ApiAnomalyEventStore,
       salesforce.Asset,
       salesforce.AssetRelationship,
@@ -376,6 +377,9 @@ type salesforce.ContentVersion {
       salesforce.AuthorizationFormText,
       salesforce.Campaign,
       salesforce.Case,
+      salesforce.ChannelProgram,
+      salesforce.ChannelProgramLevel,
+      salesforce.ChannelProgramMember,
       salesforce.CollaborationGroup,
       salesforce.CommSubscription,
       salesforce.CommSubscriptionChannelType,
@@ -392,6 +396,7 @@ type salesforce.ContentVersion {
       salesforce.CreditMemoLine,
       "Dashboard",
       "DashboardComponent",
+      salesforce.DelegatedAccount,
       salesforce.EmailMessage,
       "EmailTemplate",
       salesforce.EngagementChannelType,
@@ -407,6 +412,7 @@ type salesforce.ContentVersion {
       "ListEmail",
       salesforce.Location,
       salesforce.MessagingSession,
+      salesforce.Network,
       salesforce.OperatingHours,
       salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
@@ -414,6 +420,10 @@ type salesforce.ContentVersion {
       salesforce.OrderItem,
       "Organization",
       "OutgoingEmail",
+      salesforce.PartnerFundAllocation,
+      salesforce.PartnerFundClaim,
+      salesforce.PartnerFundRequest,
+      salesforce.PartnerMarketingBudget,
       salesforce.PartyConsent,
       salesforce.Product2,
       "Report",
@@ -582,5 +592,15 @@ type salesforce.ContentVersion {
     updateable = false
     createable = false
     _hidden_value = true
+  }
+  salesforce.Lookup NetworkId {
+    apiName = "ContentVersion.NetworkId"
+    label = "Network ID"
+    referenceTo = [
+      salesforce.Network,
+    ]
+    createable = true
+    updateable = false
+    queryable = true
   }
 }

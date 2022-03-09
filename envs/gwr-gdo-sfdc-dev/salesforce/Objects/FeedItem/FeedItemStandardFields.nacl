@@ -20,6 +20,9 @@ type salesforce.FeedItem {
       salesforce.AuthorizationFormText,
       salesforce.Campaign,
       salesforce.Case,
+      salesforce.ChannelProgram,
+      salesforce.ChannelProgramLevel,
+      salesforce.ChannelProgramMember,
       salesforce.CollaborationGroup,
       salesforce.CommSubscription,
       salesforce.CommSubscriptionChannelType,
@@ -35,6 +38,7 @@ type salesforce.FeedItem {
       salesforce.CreditMemoLine,
       "Dashboard",
       "DashboardComponent",
+      salesforce.DelegatedAccount,
       salesforce.EngagementChannelType,
       "EnhancedLetterhead",
       salesforce.Entitlement,
@@ -52,6 +56,10 @@ type salesforce.FeedItem {
       salesforce.Opportunity,
       salesforce.Order,
       salesforce.OrderItem,
+      salesforce.PartnerFundAllocation,
+      salesforce.PartnerFundClaim,
+      salesforce.PartnerFundRequest,
+      salesforce.PartnerMarketingBudget,
       salesforce.PartyConsent,
       salesforce.Product2,
       "Report",
@@ -505,6 +513,44 @@ type salesforce.FeedItem {
         fullName = "Draft"
         default = false
         label = "Draft"
+        isActive = true
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist NetworkScope {
+    apiName = "FeedItem.NetworkScope"
+    label = "Network Scope"
+    valueSet = [
+      {
+        fullName = "AllNetworks"
+        default = false
+        label = "All Networks"
+        isActive = true
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = false
+    queryable = true
+  }
+  salesforce.Picklist Visibility {
+    apiName = "FeedItem.Visibility"
+    label = "Visibility"
+    valueSet = [
+      {
+        fullName = "AllUsers"
+        default = false
+        label = "All Users"
+        isActive = true
+      },
+      {
+        fullName = "InternalUsers"
+        default = false
+        label = "Internal Users"
         isActive = true
       },
     ]

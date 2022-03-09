@@ -1,0 +1,6 @@
+salesforce.UserCriteria GWR_UAT_Experience_Customer_Members@ssvu {
+  fullName = "GWR UAT Experience.Customer_Members"
+  description = "Member criteria matches customer members"
+  masterLabel = "Customer Members"
+  userTypes = "Customer"
+}

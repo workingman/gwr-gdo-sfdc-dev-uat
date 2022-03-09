@@ -259,6 +259,18 @@ type salesforce.Site {
         label = "Force.com"
         isActive = true
       },
+      {
+        fullName = "ChatterNetwork"
+        default = false
+        label = "Community"
+        isActive = true
+      },
+      {
+        fullName = "ChatterNetworkPicasso"
+        default = false
+        label = "Site.com Community"
+        isActive = true
+      },
     ]
     restricted = true
     createable = false

@@ -241,8 +241,6 @@ type salesforce.LightningPage {
     _restriction = {
       enforce_value = false
       values = [
-        "Slack:message",
-        "Slack:modal",
         "clients:defaultMailAppTemplate",
         "contentpage:defaultEmailContentPageTemplate",
         "contentpage:defaultEmailTemplatePageTemplate",
@@ -287,6 +285,8 @@ type salesforce.LightningPage {
         "runtime_cdp:cdpRecordHomeTemplateDesktop",
         "runtime_commerce_oci:homeTemplateOneRegion",
         "runtime_service_fieldservice:headerBodyFooterDocumentTemplate",
+        "runtime_slack_block:message",
+        "runtime_slack_block:modal",
         "salesforceIdentity:loginBody",
         "salesforceIdentity:loginBody2",
         "siteforce:b2bBody",

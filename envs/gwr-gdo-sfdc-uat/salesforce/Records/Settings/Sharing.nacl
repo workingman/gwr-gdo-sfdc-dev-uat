@@ -13,4 +13,6 @@ salesforce.SharingSettings {
   enableRestrictAccessLookupRecords = false
   enableSecureGuestAccess = false
   enableStandardReportVisibility = true
+  enableAccountRoleOptimization = true
+  enablePartnerSuperUserAccess = false
 }

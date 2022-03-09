@@ -243,6 +243,7 @@ type salesforce.FlowOrchestratedStage {
         "slackArchiveChannel",
         "slackCreateChannel",
         "slackGetConversationInfo",
+        "slackGetDetailsForSalesChannel",
         "slackInviteUserToWorkspace",
         "slackInviteUsersToChannel",
         "slackPinMessage",

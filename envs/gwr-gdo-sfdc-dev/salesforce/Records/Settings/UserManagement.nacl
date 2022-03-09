@@ -1,7 +1,7 @@
 salesforce.UserManagementSettings {
   fullName = "UserManagement"
   enableCanAnswerContainUsername = "true"
-  enableConcealPersonalInfo = "true"
+  enableConcealPersonalInfo = "false"
   enableContactlessExternalIdentityUsers = false
   enableEnhancedPermsetMgmt = false
   enableEnhancedProfileMgmt = true

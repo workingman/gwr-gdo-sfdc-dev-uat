@@ -240,4 +240,15 @@ type salesforce.CollaborationGroup {
     updateable = true
     queryable = true
   }
+  salesforce.Lookup NetworkId {
+    apiName = "CollaborationGroup.NetworkId"
+    label = "Network ID"
+    referenceTo = [
+      salesforce.Network,
+    ]
+    createable = true
+    updateable = false
+    relationshipName = "Network"
+    queryable = true
+  }
 }

@@ -81,5 +81,9 @@ salesforce.AppMenu AppSwitcher {
       name = salesforce.CustomApplication.instance.standard__LightningBolt
       type = "CustomApplication"
     },
+    {
+      name = salesforce.Network.instance.community1
+      type = "Network"
+    },
   ]
 }

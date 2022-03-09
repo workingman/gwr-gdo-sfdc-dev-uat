@@ -1,0 +1,7 @@
+salesforce.Audience Default {
+  fullName = "Default"
+  audienceName = "Default"
+  container = salesforce.Network.instance.GWR_UAT_Experience@s
+  formulaFilterType = "AllCriteriaMatch"
+  isDefaultAudience = true
+}

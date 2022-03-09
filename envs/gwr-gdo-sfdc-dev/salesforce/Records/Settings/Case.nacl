@@ -42,4 +42,6 @@ salesforce.CaseSettings {
     defaultResponseTemplate = "unfiled$public/SupportCaseCreatedWebInquiries"
     enableWebToCase = true
   }
+  enableEscalateQfiToCaseNetworks = false
+  enableExtNetworksCaseFeedEnabled = false
 }

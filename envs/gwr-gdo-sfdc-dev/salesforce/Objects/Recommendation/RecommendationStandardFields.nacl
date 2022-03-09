@@ -150,4 +150,15 @@ type salesforce.Recommendation {
     length = 255
     queryable = true
   }
+  salesforce.Lookup NetworkId {
+    apiName = "Recommendation.NetworkId"
+    label = "Network ID"
+    referenceTo = [
+      salesforce.Network,
+    ]
+    createable = true
+    updateable = true
+    relationshipName = "Network"
+    queryable = true
+  }
 }

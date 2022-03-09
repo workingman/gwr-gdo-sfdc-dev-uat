@@ -29,11 +29,14 @@ type salesforce.Event {
       salesforce.AssignedResource,
       salesforce.Campaign,
       salesforce.Case,
+      salesforce.ChannelProgram,
+      salesforce.ChannelProgramLevel,
       salesforce.CommSubscriptionConsent,
       salesforce.ContactRequest,
       salesforce.Contract,
       salesforce.ContractLineItem,
       salesforce.CreditMemo,
+      salesforce.DelegatedAccount,
       salesforce.Entitlement,
       salesforce.Image,
       salesforce.Invoice,
@@ -43,6 +46,10 @@ type salesforce.Event {
       salesforce.OperatingHoursHoliday,
       salesforce.Opportunity,
       salesforce.Order,
+      salesforce.PartnerFundAllocation,
+      salesforce.PartnerFundClaim,
+      salesforce.PartnerFundRequest,
+      salesforce.PartnerMarketingBudget,
       salesforce.PartyConsent,
       salesforce.ProcessException,
       salesforce.Product2,
@@ -1306,6 +1313,13 @@ type salesforce.Event {
   }
   salesforce.Picklist Type {
     apiName = "Event.Type"
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown IsVisibleInSelfService {
+    apiName = "Event.IsVisibleInSelfService"
     queryable = false
     updateable = false
     createable = false

@@ -37,6 +37,17 @@ salesforce.AssignmentRules Lead {
             },
           ]
         },
+        {
+          assignedTo = "hotLead"
+          assignedToType = "Queue"
+          criteriaItems = [
+            {
+              field = "Lead.City"
+              operation = "equals"
+              value = "Vancouver"
+            },
+          ]
+        },
       ]
     },
   ]

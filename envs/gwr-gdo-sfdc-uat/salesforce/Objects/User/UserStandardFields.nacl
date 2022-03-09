@@ -836,6 +836,7 @@ type salesforce.User {
     updateable = true
     relationshipName = "UserRole"
     queryable = true
+    trackFeedHistory = false
   }
   salesforce.Picklist LocaleSidKey {
     apiName = "User.LocaleSidKey"
@@ -2218,6 +2219,7 @@ type salesforce.User {
     updateable = true
     relationshipName = "Profile"
     queryable = true
+    trackFeedHistory = false
   }
   salesforce.Picklist UserType {
     apiName = "User.UserType"
@@ -3177,6 +3179,7 @@ type salesforce.User {
     updateable = true
     relationshipName = "Contact"
     queryable = true
+    trackFeedHistory = false
   }
   salesforce.Lookup AccountId {
     apiName = "User.AccountId"
@@ -3386,5 +3389,70 @@ type salesforce.User {
     updateable = true
     relationshipName = "Individual"
     queryable = true
+    trackFeedHistory = false
+  }
+  salesforce.Picklist PortalRole {
+    apiName = "User.PortalRole"
+    label = "Portal Role Level"
+    valueSet = [
+      {
+        fullName = "Executive"
+        default = false
+        label = "Executive"
+        isActive = true
+      },
+      {
+        fullName = "Manager"
+        default = false
+        label = "Manager"
+        isActive = true
+      },
+      {
+        fullName = "Worker"
+        default = false
+        label = "User"
+        isActive = true
+      },
+      {
+        fullName = "PersonAccount"
+        default = false
+        label = "Person Account"
+        isActive = true
+      },
+    ]
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox IsPortalEnabled {
+    apiName = "User.IsPortalEnabled"
+    label = "Is Portal Enabled"
+    defaultValue = false
+    createable = false
+    updateable = true
+    queryable = true
+  }
+  salesforce.Unknown IsSystemControlled {
+    apiName = "User.IsSystemControlled"
+    trackFeedHistory = false
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Unknown UserSubtype {
+    apiName = "User.UserSubtype"
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
+  }
+  salesforce.Lookup WorkspaceId {
+    apiName = "User.WorkspaceId"
+    queryable = false
+    updateable = false
+    createable = false
+    _hidden_value = true
   }
 }

@@ -222,6 +222,24 @@ type salesforce.Macro {
         isActive = true
       },
       {
+        fullName = "ChannelProgram"
+        default = false
+        label = "Channel Program"
+        isActive = true
+      },
+      {
+        fullName = "ChannelProgramLevel"
+        default = false
+        label = "Channel Program Level"
+        isActive = true
+      },
+      {
+        fullName = "ChannelProgramMember"
+        default = false
+        label = "Channel Program Member"
+        isActive = true
+      },
+      {
         fullName = "CommSubscription"
         default = false
         label = "Communication Subscription"
@@ -321,6 +339,12 @@ type salesforce.Macro {
         fullName = "Event"
         default = false
         label = "Event"
+        isActive = true
+      },
+      {
+        fullName = "DelegatedAccount"
+        default = false
+        label = "External Managed Account"
         isActive = true
       },
       {
@@ -429,6 +453,30 @@ type salesforce.Macro {
         fullName = "Order"
         default = false
         label = "Order"
+        isActive = true
+      },
+      {
+        fullName = "PartnerFundAllocation"
+        default = false
+        label = "Partner Fund Allocation"
+        isActive = true
+      },
+      {
+        fullName = "PartnerFundClaim"
+        default = false
+        label = "Partner Fund Claim"
+        isActive = true
+      },
+      {
+        fullName = "PartnerFundRequest"
+        default = false
+        label = "Partner Fund Request"
+        isActive = true
+      },
+      {
+        fullName = "PartnerMarketingBudget"
+        default = false
+        label = "Partner Marketing Budget"
         isActive = true
       },
       {
