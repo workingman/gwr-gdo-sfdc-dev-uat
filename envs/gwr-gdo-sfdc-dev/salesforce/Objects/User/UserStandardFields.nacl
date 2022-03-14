@@ -647,9 +647,21 @@ type salesforce.User {
         isActive = true
       },
       {
+        fullName = "America/St_Johns"
+        default = false
+        label = "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)"
+        isActive = true
+      },
+      {
         fullName = "America/Argentina/Buenos_Aires"
         default = false
         label = "(GMT-03:00) Argentina Standard Time (America/Argentina/Buenos_Aires)"
+        isActive = true
+      },
+      {
+        fullName = "America/Halifax"
+        default = false
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Halifax)"
         isActive = true
       },
       {
@@ -665,9 +677,9 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/St_Johns"
+        fullName = "Atlantic/Bermuda"
         default = false
-        label = "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)"
+        label = "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)"
         isActive = true
       },
       {
@@ -677,9 +689,15 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/Halifax"
+        fullName = "America/Indiana/Indianapolis"
         default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Halifax)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)"
+        isActive = true
+      },
+      {
+        fullName = "America/New_York"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/New_York)"
         isActive = true
       },
       {
@@ -689,21 +707,15 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "Atlantic/Bermuda"
-        default = false
-        label = "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)"
-        isActive = true
-      },
-      {
         fullName = "America/Bogota"
         default = false
         label = "(GMT-05:00) Colombia Standard Time (America/Bogota)"
         isActive = true
       },
       {
-        fullName = "America/Indiana/Indianapolis"
+        fullName = "America/Chicago"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)"
+        label = "(GMT-05:00) Central Daylight Time (America/Chicago)"
         isActive = true
       },
       {
@@ -713,21 +725,15 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/New_York"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/New_York)"
-        isActive = true
-      },
-      {
         fullName = "America/Panama"
         default = false
         label = "(GMT-05:00) Eastern Standard Time (America/Panama)"
         isActive = true
       },
       {
-        fullName = "America/Chicago"
+        fullName = "America/Denver"
         default = false
-        label = "(GMT-06:00) Central Standard Time (America/Chicago)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Denver)"
         isActive = true
       },
       {
@@ -743,9 +749,9 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/Denver"
+        fullName = "America/Los_Angeles"
         default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Denver)"
+        label = "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)"
         isActive = true
       },
       {
@@ -761,15 +767,15 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/Los_Angeles"
+        fullName = "America/Tijuana"
         default = false
-        label = "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)"
+        label = "(GMT-07:00) Pacific Daylight Time (America/Tijuana)"
         isActive = true
       },
       {
-        fullName = "America/Tijuana"
+        fullName = "America/Anchorage"
         default = false
-        label = "(GMT-08:00) Pacific Standard Time (America/Tijuana)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Anchorage)"
         isActive = true
       },
       {
@@ -779,9 +785,9 @@ type salesforce.User {
         isActive = true
       },
       {
-        fullName = "America/Anchorage"
+        fullName = "America/Adak"
         default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Anchorage)"
+        label = "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)"
         isActive = true
       },
       {
@@ -794,12 +800,6 @@ type salesforce.User {
         fullName = "Pacific/Marquesas"
         default = false
         label = "(GMT-09:30) Marquesas Time (Pacific/Marquesas)"
-        isActive = true
-      },
-      {
-        fullName = "America/Adak"
-        default = false
-        label = "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)"
         isActive = true
       },
       {

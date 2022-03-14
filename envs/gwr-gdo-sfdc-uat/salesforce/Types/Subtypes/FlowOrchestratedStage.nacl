@@ -235,6 +235,7 @@ type salesforce.FlowOrchestratedStage {
         "saveRecommendationDecision",
         "scaleCacheAsyncRefresh",
         "selectTemplateForSalesCadenceStepTracker",
+        "sendNotification",
         "sendSalesCadenceEvent",
         "sendSurveyInvitation",
         "setCheckoutDeliveryMethod",

@@ -215,6 +215,7 @@ type salesforce.StrategyAction {
         "saveRecommendationDecision",
         "scaleCacheAsyncRefresh",
         "selectTemplateForSalesCadenceStepTracker",
+        "sendNotification",
         "sendSalesCadenceEvent",
         "sendSurveyInvitation",
         "setCheckoutDeliveryMethod",
