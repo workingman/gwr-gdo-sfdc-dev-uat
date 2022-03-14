@@ -232,7 +232,6 @@ type salesforce.FlowActionCall {
         "saveRecommendationDecision",
         "scaleCacheAsyncRefresh",
         "selectTemplateForSalesCadenceStepTracker",
-        "sendNotification",
         "sendSalesCadenceEvent",
         "sendSurveyInvitation",
         "setCheckoutDeliveryMethod",

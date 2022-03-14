@@ -42,9 +42,14 @@ type salesforce.Account {
         label = "Silver"
       },
       {
-        fullName = "Copper"
+        fullName = "Platinum"
         default = false
-        label = "Copper"
+        label = "Platinum"
+      },
+      {
+        fullName = "Bronze"
+        default = false
+        label = "Bronze"
       },
       {
         fullName = "Titanium"
@@ -52,9 +57,9 @@ type salesforce.Account {
         label = "Titanium"
       },
       {
-        fullName = "Vanadium"
+        fullName = "Aluminum"
         default = false
-        label = "Vanadium"
+        label = "Cesium2"
       },
     ]
     restricted = false
